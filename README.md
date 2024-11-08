@@ -14,9 +14,9 @@ Bu depo, **Raspberry Pi AI Kiti** proje kitabındaki örnek kodları içermekted
    
    ![Görüntü Segmentasyonu](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/goruntu-bolumlendirme.png?raw=true)
 
-3. **Poz Tespiti**: Gerçek zamanlı olarak insan pozlarını ve işaretlerini algılama.
+3. **Poz Algılama**: Gerçek zamanlı olarak insan pozlarını ve işaretlerini algılama.
    
-   ![Poz Tespiti](https://example.com/pose-detection-example.png)
+   ![Poz Algılama](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/poz-alg%C4%B1lama.png?raw=true)
 
 4. **Özel Nesne Tanıma Projesi**: Nesne tanıma modülünün ek işlevler ve geliştirmeler içeren değiştirilmiş versiyonu.
 
