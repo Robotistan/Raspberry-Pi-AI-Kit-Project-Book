@@ -2,7 +2,7 @@
 
 Bu depo, **Raspberry Pi AI Kiti** proje kitabındaki örnek kodları içermektedir. Projeler, Raspberry Pi kullanarak nesne tanıma, görüntü segmentasyonu, poz tespiti ve diğer yapay zeka tabanlı uygulamaları kapsamaktadır.
 
-![Raspberry Pi AI Kit](https://example.com/raspberry-pi-ai-kit-image.png)
+![Raspberry Pi AI Kit](https://www.raspberrypi.com/documentation/accessories/images/ai-kit.jpg?hash=b707e971611c4b204c24f05e938bcf7d)
 
 ## Proje Listesi
 
