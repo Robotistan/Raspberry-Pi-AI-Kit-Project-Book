@@ -19,7 +19,7 @@ Bu depo, **Raspberry Pi AI Kiti** proje kitabındaki örnek kodları içermekted
    ![Poz Algılama](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/poz-alg%C4%B1lama.png?raw=true)
 
 4. **Özel Nesne Tanıma Projesi**: Nesne tanıma modülünün ek işlevler ve geliştirmeler içeren değiştirilmiş versiyonu.
-
+![Nesne Tanıma](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/proje4-03.png?raw=true)
 ## Başlarken
 
 Bu projeleri çalıştırmak için ihtiyacınız olanlar:
