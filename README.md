@@ -12,7 +12,7 @@ Bu depo, **Raspberry Pi AI Kiti** proje kitabındaki örnek kodları içermekted
 
 2. **Görüntü Segmentasyonu**: Bir görüntünün her pikselini belirli kategorilere ayırma.
    
-   ![Görüntü Segmentasyonu](https://example.com/image-segmentation-example.png)
+   ![Görüntü Segmentasyonu](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/goruntu-bolumlendirme.png?raw=true)
 
 3. **Poz Tespiti**: Gerçek zamanlı olarak insan pozlarını ve işaretlerini algılama.
    
