@@ -8,7 +8,7 @@ Bu depo, **Raspberry Pi AI Kiti** proje kitabındaki örnek kodları içermekted
 
 1. **Nesne Tanıma**: Önceden eğitilmiş bir modeli kullanarak görüntülerdeki nesneleri tanımlama.
    
-   ![Nesne Tanıma Örneği](https://example.com/object-recognition-example.png)
+   ![Nesne Tanıma Örneği](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/nesne-tanima.png?raw=true)
 
 2. **Görüntü Segmentasyonu**: Bir görüntünün her pikselini belirli kategorilere ayırma.
    
