@@ -6,8 +6,9 @@ Bu depo, **Raspberry Pi AI Kiti** proje kitabındaki örnek kodları içermekted
 ## AI Kit Yazılım Kurulum Adımları
 Raspbian işletim sisteminin en güncel versiyonunu kurmak için aşağıdaki komutu çalıştırın. Bu komut Raspbian yazılımını günceller.
 
-`bash`
+```bash
 sudo apt update && sudo apt full-upgrade
+```
 
 ## Proje Listesi
 
