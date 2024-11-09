@@ -21,6 +21,37 @@ Aşağıdaki komutu çalıştırdığımızda Raspbian’ın konfigürasyon ayar
 ```bash
 sudo raspi-config
 ```
+
+![çıktı02](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/aiKit-02.png?raw=true)
+
+Aşağıdaki adımları takip ederek aygıt yazılımını son sürüme güncelleyiniz. 
+
+Advanced Options > Bootloader Version > …Latest Bu ayarlamaları yaptıktan sonra esc yada finish butonu ile çıkış yapabilirsiniz. 
+
+Aygıt yazılımını son sürüme güncellemek için aşağıdaki komut satırını çalıştırın. 
+```bash
+sudo rpi-eeprom-update -a
+```
+Aşağıdaki komut ile Raspberry Pi ’yi yeniden başlatın. 
+```bash
+sudo reboot
+```
+Artık Raspbian yazılımlarını AI Kit’e uygun hale getirdik. Bundan sonra yazacağımız komutlar ile AI kit için gerekli olan yapay zeka yazılımlarını işletim sistemimizin içerisine çekeceğiz.  
+
+## AI Kit’i kullanmak için gerekli olan yazılımları yüklememizi sağlayan komut satırını çalıştıralım. 
+```bash
+sudo apt install hailo-all
+```
+Aşağıdaki komut ile Raspberry Pi ’yi yeniden başlatın. 
+```bash
+sudo reboot
+```
+Bütün adımların doğru bir şekilde yapıldığından emin olmak için aşağıdaki komut satırını çalıştırınız.
+```bash
+hailortcli fw-control identify
+```
+Aşağıdaki gibi çıktı alıyorsanız yazılım adımlarını doğru bir şekilde tamamlamlamışsınız demektedir.
+
 ## Proje Listesi
 
 1. **Nesne Tanıma**: Önceden eğitilmiş bir modeli kullanarak görüntülerdeki nesneleri tanımlama.
