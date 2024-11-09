@@ -9,6 +9,11 @@ Raspbian işletim sisteminin en güncel versiyonunu kurmak için aşağıdaki ko
 ```bash
 sudo apt update && sudo apt full-upgrade
 ```
+Raspberry Pi ‘mizde hangi aygıt yazılımının çalıştığını öğrenmek için aşağıdaki komut satırını çalıştırınız. 
+```bash
+sudo rpi-eeprom-update
+```
+Komutu çalıştırdığımızda, aşağıdaki gibi bir çıktı üretecektir. Eğer ki aşağıdaki çıktıda 6 aralık 2023 ve daha sonraki bir tarih görürseniz aşağıdaki adımları takip ediniz. 
 
 ## Proje Listesi
 
