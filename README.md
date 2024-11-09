@@ -55,22 +55,33 @@ Aşağıdaki gibi çıktı alıyorsanız yazılım adımlarını doğru bir şek
 ![çıktı03](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/aiKit-03.png?raw=true)
 
 # AI Kit yazılım kurulumunu başarı ile tamamladık. Artık Demo yapay zeka modellerini çalıştırabiliriz.
-
+Raspberry Pi AI Kit yapay zeka modellerinin bulunduğu GitHub reposunu klonlamak için aşağıdaki terminal komutunu çalıştırınız. 
+```bash
+git clone --depth 1 https://github.com/raspberrypi/rpicam-apps.git ~/rpicam-apps
+```
 
 ## Proje Listesi
 
 1. **Nesne Tanıma**: Önceden eğitilmiş bir modeli kullanarak görüntülerdeki nesneleri tanımlama.
    
    ![Nesne Tanıma Örneği](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/nesne-tanima.png?raw=true)
+```bash
+rpicam-hello -t 0 --post-process-file ~/rpicam-apps/assets/hailo_yolov6_inference.json --lores-width 640 --lores-height 640
+```
+Diğer modellere göz atmak için kitaba göz atabilirsiniz. 
 
 2. **Görüntü Segmentasyonu**: Bir görüntünün her pikselini belirli kategorilere ayırma.
    
    ![Görüntü Segmentasyonu](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/goruntu-bolumlendirme.png?raw=true)
-
+```bash
+rpicam-hello -t 0 --post-process-file ~/rpicam-apps/assets/hailo_yolov5_segmentation.json --lores-width 640 --lores-height 640 --framerate 20
+```
 3. **Poz Algılama**: Gerçek zamanlı olarak insan pozlarını ve işaretlerini algılama.
    
    ![Poz Algılama](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/poz-alg%C4%B1lama.png?raw=true)
-
+```bash
+rpicam-hello -t 0 --post-process-file ~/rpicam-apps/assets/hailo_yolov8_pose.json --lores-width 640 --lores-height 640
+```
 4. **Özel Nesne Tanıma Projesi**: Nesne tanıma modülünün ek işlevler ve geliştirmeler içeren değiştirilmiş versiyonu.
 ![Nesne Tanıma](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/proje4-03.png?raw=true)
 ## Başlarken
