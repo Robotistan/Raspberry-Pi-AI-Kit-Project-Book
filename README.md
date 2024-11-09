@@ -15,6 +15,7 @@ sudo rpi-eeprom-update
 ```
 Komutu çalıştırdığımızda, aşağıdaki gibi bir çıktı üretecektir. Eğer ki aşağıdaki çıktıda 6 aralık 2023 ve daha sonraki bir tarih görürseniz aşağıdaki adımları takip ediniz. 
 ![Çıktı01](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/aiKit-01.png?raw=true)
+
 Aşağıdaki komutu çalıştırdığımızda Raspbian’ın konfigürasyon ayarları penceresine yönlendirileceksiniz. 
 ```bash
 sudo raspi-config
