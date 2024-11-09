@@ -52,6 +52,11 @@ hailortcli fw-control identify
 ```
 Aşağıdaki gibi çıktı alıyorsanız yazılım adımlarını doğru bir şekilde tamamlamlamışsınız demektedir.
 
+![çıktı03](https://github.com/Robotistan/Raspberry-Pi-AI-Kit-Project-Book/blob/main/images/aiKit-03.png?raw=true)
+
+# AI Kit yazılım kurulumunu başarı ile tamamladık. Artık Demo yapay zeka modellerini çalıştırabiliriz.
+
+
 ## Proje Listesi
 
 1. **Nesne Tanıma**: Önceden eğitilmiş bir modeli kullanarak görüntülerdeki nesneleri tanımlama.
